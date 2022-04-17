@@ -1,0 +1,493 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 4.11.0"/><style data-href="/styles.5da8afc12734bfddb04a.css" data-identity="gatsby-global-css">/*!
+  Theme: Dracula
+  Author: Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
+  License: ~ MIT (or more permissive) [via base16-schemes-source]
+  Maintainer: @highlightjs/core-team
+  Version: 2021.09.0
+*/pre code.hljs{display:block;overflow-x:auto;padding:1em}code.hljs{padding:3px 5px}.hljs{background:#282936;color:#e9e9f4}.hljs ::selection,.hljs::selection{background-color:#4d4f68;color:#e9e9f4}.hljs-comment{color:#626483}.hljs-tag{color:#62d6e8}.hljs-operator,.hljs-punctuation,.hljs-subst{color:#e9e9f4}.hljs-operator{opacity:.7}.hljs-bullet,.hljs-deletion,.hljs-name,.hljs-selector-tag,.hljs-template-variable,.hljs-variable{color:#ea51b2}.hljs-attr,.hljs-link,.hljs-literal,.hljs-number,.hljs-symbol,.hljs-variable.constant_{color:#b45bcf}.hljs-class .hljs-title,.hljs-strong,.hljs-title,.hljs-title.class_{color:#00f769}.hljs-strong{font-weight:700}.hljs-addition,.hljs-code,.hljs-string,.hljs-title.class_.inherited__{color:#ebff87}.hljs-built_in,.hljs-doctag,.hljs-keyword.hljs-atrule,.hljs-quote,.hljs-regexp{color:#a1efe4}.hljs-attribute,.hljs-function .hljs-title,.hljs-section,.hljs-title.function_,.ruby .hljs-property{color:#62d6e8}.diff .hljs-meta,.hljs-keyword,.hljs-template-tag,.hljs-type{color:#b45bcf}.hljs-emphasis{color:#b45bcf;font-style:italic}.hljs-meta,.hljs-meta .hljs-keyword,.hljs-meta .hljs-string{color:#00f769}.hljs-meta .hljs-keyword,.hljs-meta-keyword{font-weight:700}:root{--default-color:#212121;--background-color:#fff;--border-color:#f6f6f6;--default-width-1:0.05208vw;--default-width-20:calc(var(--default-width-1)*20);--box-shadow:rgb(0 0 0/6%) 0px calc(var(--default-width-1)*6) calc(var(--default-width-1)*24);--border-radius:calc(var(--default-width-1)*4);--font-size:calc(var(--default-width-1)*14);--large-font-size:calc(var(--default-width-1)*16);font-size:var(--font-size)}body{margin:0}code{background-color:#e3e3e3;border-radius:5px;padding:3px 5px}blockquote{border-left:.25em solid #d0d7de;margin:0;padding:0 1em}img{max-width:100%}.hljs{font-family:Fira Code}.index-module--card--FvfCF{background-color:var(--background-color);border:var(--default-width-1) solid #e3e3e3;color:var(--default-color);margin:0 calc(var(--default-width-20)/2);padding:0 var(--default-width-20);text-decoration:none}.index-module--card--FvfCF:hover{box-shadow:var(--box-shadow)}.index-module--type-card__title--fwrmv{border-bottom:solid var(--default-width-1) var(--border-color);height:calc(var(--default-width-20)*3);line-height:calc(var(--default-width-20)*3)}.index-module--type-card__content--wul88{display:flex;flex-wrap:wrap}.index-module--header-box--RtnlP{box-shadow:var(--box-shadow);position:fixed;top:0;width:100%}header{align-items:center;background-color:var(--background-color);display:flex;height:calc(var(--default-width-20)*3.5);justify-content:space-between;margin:0 auto;max-width:80rem;padding:0 1.5rem}.index-module--menu--T2tkF,.index-module--sub-menu--kdLk5{display:flex;list-style-type:none;padding:0}.index-module--menu--T2tkF>li{cursor:pointer;display:block;font-size:var(--large-font-size);font-weight:700;height:calc(var(--default-width-20)*3.5);line-height:calc(var(--default-width-20)*3.5);padding:0 var(--default-width-20)}.index-module--menu--T2tkF>li:hover .index-module--sub-menu--kdLk5{display:block}.index-module--sub-menu--kdLk5{background-color:var(--background-color);border-radius:var(--border-radius);box-shadow:var(--box-shadow);display:none;flex-direction:column;position:absolute;width:calc(var(--default-width-20)*6)}.index-module--sub-menu--kdLk5>li{cursor:pointer;height:calc(var(--default-width-20)*2);line-height:calc(var(--default-width-20)*2);padding:0 var(--default-width-20)}:is(.index-module--menu--T2tkF,.index-module--sub-menu--kdLk5) li a,h2>a{color:var(--default-color);display:block;height:100%;text-decoration:none}.index-module--md-content--tPtrw{margin:calc(var(--default-width-20)*4.5) auto 0;max-width:80rem}</style><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><title data-react-helmet="true"></title><link rel="sitemap" type="application/xml" href="/sitemap/sitemap-index.xml"/><link rel="icon" href="/favicon-32x32.png?v=53aa06cf17e4239d0dba6ffd09854e02" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=53aa06cf17e4239d0dba6ffd09854e02"/><link as="script" rel="preload" href="/webpack-runtime-a8b117a0c06915913bd8.js"/><link as="script" rel="preload" href="/framework-40f550404eff6143517a.js"/><link as="script" rel="preload" href="/app-5ff64c5c6731c3d5b165.js"/><link as="script" rel="preload" href="/42c9f84f9645ed5f761b4c6678255cf01342391e-664e7f9e279843ee0ff6.js"/><link as="script" rel="preload" href="/component---src-pages-mdx-slug-tsx-e6b9a5a5ab118c518437.js"/><link as="fetch" rel="preload" href="/page-data/front-guide/language/javascript-guide/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2744905544.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><script>(function() { try {
+  var mode = localStorage.getItem('theme-ui-color-mode');
+  if (!mode) return
+  document.documentElement.classList.add('theme-ui-' + mode);
+} catch (e) {} })();</script><div id="___gatsby"><style data-emotion="css-global ehhlky">html{color:var(--theme-ui-colors-text);background-color:var(--theme-ui-colors-background);}</style><style data-emotion="css-global 0"></style><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="index-module--header-box--RtnlP"><header><h2><a href="/">Nova Style Guide</a></h2><nav><ul class="index-module--menu--T2tkF"><li><a href="/front-end-page">Front End</a></li><li>Back End</li><li>UI/UX Design</li><li><a href="/blog-page">Blog</a></li><li>Projects<ul class="index-module--sub-menu--kdLk5"><li>Nova</li><li>Hydra</li><li>Asgard</li></ul></li></ul></nav></header></div><main class="index-module--md-content--tPtrw"><h2>Javascript guide</h2><p class="css-0">这是 JavaScript <a href="https://github.com/standard/standard" class="css-0">standard</a> 代码规范的全文。</p><p class="css-0">掌握本规范的最好方法是安装并在自己的代码中使用它。</p><h2 class="css-0">细则</h2><ul class="css-0"><li class="css-0"><p class="css-0"><strong class="css-0">使用两个空格</strong>进行缩进。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/indent" class="css-0"><code class="css-0">indent</code></a></p><pre class="css-0"><code class="language-js css-0">function hello (name) {
+  console.log(&#x27;hi&#x27;, name)
+}
+</code></pre></li><li class="css-0"><p class="css-0">除需要转义的情况外，<strong class="css-0">字符串统一使用单引号</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/quotes" class="css-0"><code class="css-0">quotes</code></a></p><pre class="css-0"><code class="language-js css-0">console.log(&#x27;hello there&#x27;)
+$(&quot;&lt;div class=&#x27;box&#x27;&gt;&quot;)
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要定义未使用的变量</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-unused-vars" class="css-0"><code class="css-0">no-unused-vars</code></a></p><pre class="css-0"><code class="language-js css-0">function myFunction () {
+  var result = something()   // ✗ avoid
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">关键字后面加空格</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/keyword-spacing" class="css-0"><code class="css-0">keyword-spacing</code></a></p><pre class="css-0"><code class="language-js css-0">if (condition) { ... }   // ✓ ok
+if(condition) { ... }    // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">函数声明时括号与函数名间加空格</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/space-before-function-paren" class="css-0"><code class="css-0">space-before-function-paren</code></a></p><pre class="css-0"><code class="language-js css-0">function name (arg) { ... }   // ✓ ok
+function name(arg) { ... }    // ✗ avoid
+
+run(function () { ... })      // ✓ ok
+run(function() { ... })       // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">始终使用</strong> <code class="css-0">===</code> 替代 <code class="css-0">==</code>。</p><p class="css-0">例外： <code class="css-0">obj == null</code> 可以用来检查 <code class="css-0">null || undefined</code>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/eqeqeq" class="css-0"><code class="css-0">eqeqeq</code></a></p><pre class="css-0"><code class="language-js css-0">if (name === &#x27;John&#x27;)   // ✓ ok
+if (name == &#x27;John&#x27;)    // ✗ avoid
+</code></pre><pre class="css-0"><code class="language-js css-0">if (name !== &#x27;John&#x27;)   // ✓ ok
+if (name != &#x27;John&#x27;)    // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">字符串拼接操作符 (Infix operators)</strong> 之间要留空格。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/space-infix-ops" class="css-0"><code class="css-0">space-infix-ops</code></a></p><pre class="css-0"><code class="language-js css-0">// ✓ ok
+var x = 2
+var message = &#x27;hello, &#x27; + name + &#x27;!&#x27;
+</code></pre><pre class="css-0"><code class="language-js css-0">// ✗ avoid
+var x=2
+var message = &#x27;hello, &#x27;+name+&#x27;!&#x27;
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">逗号后面加空格</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/comma-spacing" class="css-0"><code class="css-0">comma-spacing</code></a></p><pre class="css-0"><code class="language-js css-0">// ✓ ok
+var list = [1, 2, 3, 4]
+function greet (name, options) { ... }
+</code></pre><pre class="css-0"><code class="language-js css-0">// ✗ avoid
+var list = [1,2,3,4]
+function greet (name,options) { ... }
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">else 关键字要与花括号</strong>保持在同一行。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/brace-style" class="css-0"><code class="css-0">brace-style</code></a></p><pre class="css-0"><code class="language-js css-0">// ✓ ok
+if (condition) {
+  // ...
+} else {
+  // ...
+}
+</code></pre><pre class="css-0"><code class="language-js css-0">// ✗ avoid
+if (condition)
+{
+  // ...
+}
+else
+{
+  // ...
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">多行 if 语句的</strong>的括号不能省。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/curly" class="css-0"><code class="css-0">curly</code></a></p><pre class="css-0"><code class="language-js css-0">// ✓ ok
+if (options.quiet !== true) console.log(&#x27;done&#x27;)
+</code></pre><pre class="css-0"><code class="language-js css-0">// ✓ ok
+if (options.quiet !== true) {
+  console.log(&#x27;done&#x27;)
+}
+</code></pre><pre class="css-0"><code class="language-js css-0">// ✗ avoid
+if (options.quiet !== true)
+  console.log(&#x27;done&#x27;)
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要丢掉</strong>异常处理中<code class="css-0">err</code>参数。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/handle-callback-err" class="css-0"><code class="css-0">handle-callback-err</code></a></p><pre class="css-0"><code class="language-js css-0">// ✓ ok
+run(function (err) {
+  if (err) throw err
+  window.alert(&#x27;done&#x27;)
+})
+</code></pre><pre class="css-0"><code class="language-js css-0">// ✗ avoid
+run(function (err) {
+  window.alert(&#x27;done&#x27;)
+})
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">使用浏览器全局变量时加上</strong> <code class="css-0">window.</code> 前缀。</p><p class="css-0"><code class="css-0">document</code>、<code class="css-0">console</code> 和 <code class="css-0">navigator</code> 除外。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-undef" class="css-0"><code class="css-0">no-undef</code></a></p><pre class="css-0"><code class="language-js css-0">window.alert(&#x27;hi&#x27;)   // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不允许有连续多行空行</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-multiple-empty-lines" class="css-0"><code class="css-0">no-multiple-empty-lines</code></a></p><pre class="css-0"><code class="language-js css-0">// ✓ ok
+var value = &#x27;hello world&#x27;
+console.log(value)
+</code></pre><pre class="css-0"><code class="language-jsx css-0">// ✗ avoid
+var value = &#x27;hello world&#x27;
+
+
+console.log(value)
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">对于三元运算符</strong> <code class="css-0">?</code> 和 <code class="css-0">:</code> 与他们所负责的代码处于同一行</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/operator-linebreak" class="css-0"><code class="css-0">operator-linebreak</code></a></p><pre class="css-0"><code class="language-js css-0">// ✓ ok
+var location = env.development ? &#x27;localhost&#x27; : &#x27;www.api.com&#x27;
+
+// ✓ ok
+var location = env.development
+  ? &#x27;localhost&#x27;
+  : &#x27;www.api.com&#x27;
+
+// ✗ avoid
+var location = env.development ?
+  &#x27;localhost&#x27; :
+  &#x27;www.api.com&#x27;
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">每个 var 关键字</strong>单独声明一个变量。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/one-var" class="css-0"><code class="css-0">one-var</code></a></p><pre class="css-0"><code class="language-js css-0">// ✓ ok
+var silent = true
+var verbose = true
+
+// ✗ avoid
+var silent = true, verbose = true
+
+// ✗ avoid
+var silent = true,
+    verbose = true
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">条件语句中赋值语句</strong>使用括号包起来。这样使得代码更加清晰可读，而不会认为是将条件判断语句的全等号（<code class="css-0">===</code>）错写成了等号（<code class="css-0">=</code>）。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-cond-assign" class="css-0"><code class="css-0">no-cond-assign</code></a></p><pre class="css-0"><code class="language-js css-0">// ✓ ok
+while ((m = text.match(expr))) {
+  // ...
+}
+
+// ✗ avoid
+while (m = text.match(expr)) {
+  // ...
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">单行代码块两边加空格</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/block-spacing" class="css-0"><code class="css-0">block-spacing</code></a></p><pre class="css-0"><code class="language-js css-0">  function foo () {return true}    // ✗ avoid
+  function foo () { return true }  // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">对于变量和函数名统一使用驼峰命名法</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/camelcase" class="css-0"><code class="css-0">camelcase</code></a></p><pre class="css-0"><code class="language-js css-0">  function my_function () { }    // ✗ avoid
+  function myFunction () { }     // ✓ ok
+
+  var my_var = &#x27;hello&#x27;           // ✗ avoid
+  var myVar = &#x27;hello&#x27;            // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不允许有多余的行末逗号</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/comma-dangle" class="css-0"><code class="css-0">comma-dangle</code></a></p><pre class="css-0"><code class="language-js css-0">  var obj = {
+    message: &#x27;hello&#x27;,   // ✗ avoid
+  }
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">始终将逗号置于行末</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/comma-style" class="css-0"><code class="css-0">comma-style</code></a></p><pre class="css-0"><code class="language-js css-0">  var obj = {
+    foo: &#x27;foo&#x27;
+    ,bar: &#x27;bar&#x27;   // ✗ avoid
+  }
+
+  var obj = {
+    foo: &#x27;foo&#x27;,
+    bar: &#x27;bar&#x27;   // ✓ ok
+  }
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">点号操作符须与属性需在同一行</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/dot-location" class="css-0"><code class="css-0">dot-location</code></a></p><pre class="css-0"><code class="language-js css-0">  console.
+    log(&#x27;hello&#x27;)  // ✗ avoid
+
+  console
+    .log(&#x27;hello&#x27;) // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">文件末尾留一空行</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/eol-last" class="css-0"><code class="css-0">eol-last</code></a></p></li><li class="css-0"><p class="css-0"><strong class="css-0">函数调用时标识符与括号间不留间隔</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/func-call-spacing" class="css-0"><code class="css-0">func-call-spacing</code></a></p><pre class="css-0"><code class="language-js css-0">console.log (&#x27;hello&#x27;) // ✗ avoid
+console.log(&#x27;hello&#x27;)  // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">键值对当中冒号与值之间要留空白</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/key-spacing" class="css-0"><code class="css-0">key-spacing</code></a></p><pre class="css-0"><code class="language-js css-0">var obj = { &#x27;key&#x27; : &#x27;value&#x27; }    // ✗ avoid
+var obj = { &#x27;key&#x27; :&#x27;value&#x27; }     // ✗ avoid
+var obj = { &#x27;key&#x27;:&#x27;value&#x27; }      // ✗ avoid
+var obj = { &#x27;key&#x27;: &#x27;value&#x27; }     // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">构造函数要以大写字母开头</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/new-cap" class="css-0"><code class="css-0">new-cap</code></a></p><pre class="css-0"><code class="language-js css-0">function animal () {}
+var dog = new animal()    // ✗ avoid
+
+function Animal () {}
+var dog = new Animal()    // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">无参的构造函数调用时要带上括号</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/new-parens" class="css-0"><code class="css-0">new-parens</code></a></p><pre class="css-0"><code class="language-js css-0">function Animal () {}
+var dog = new Animal    // ✗ avoid
+var dog = new Animal()  // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">对象中定义了存值器，一定要对应的定义取值器</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/accessor-pairs" class="css-0"><code class="css-0">accessor-pairs</code></a></p><pre class="css-0"><code class="language-js css-0">var person = {
+  set name (value) {    // ✗ avoid
+    this._name = value
+  }
+}
+
+var person = {
+  set name (value) {
+    this._name = value
+  },
+  get name () {         // ✓ ok
+    return this._name
+  }
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">子类的构造器中一定要调用 <code class="css-0">super</code></strong></p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/constructor-super" class="css-0"><code class="css-0">constructor-super</code></a></p><pre class="css-0"><code class="language-js css-0">class Dog {
+  constructor () {
+    super()   // ✗ avoid
+  }
+}
+
+class Dog extends Mammal {
+  constructor () {
+    super()   // ✓ ok
+  }
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">使用数组字面量而不是构造器</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-array-constructor" class="css-0"><code class="css-0">no-array-constructor</code></a></p><pre class="css-0"><code class="language-js css-0">var nums = new Array(1, 2, 3)   // ✗ avoid
+var nums = [1, 2, 3]            // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">避免使用 <code class="css-0">arguments.callee</code> 和 <code class="css-0">arguments.caller</code></strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-caller" class="css-0"><code class="css-0">no-caller</code></a></p><pre class="css-0"><code class="language-js css-0">function foo (n) {
+  if (n &lt;= 0) return
+
+  arguments.callee(n - 1)   // ✗ avoid
+}
+
+function foo (n) {
+  if (n &lt;= 0) return
+
+  foo(n - 1)
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">避免对类名重新赋值</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-class-assign" class="css-0"><code class="css-0">no-class-assign</code></a></p><pre class="css-0"><code class="language-js css-0">class Dog {}
+Dog = &#x27;Fido&#x27;    // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">避免修改使用 <code class="css-0">const</code> 声明的变量</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-const-assign" class="css-0"><code class="css-0">no-const-assign</code></a></p><pre class="css-0"><code class="language-js css-0">const score = 100
+score = 125       // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">避免使用常量作为条件表达式的条件（循环语句除外）</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-constant-condition" class="css-0"><code class="css-0">no-constant-condition</code></a></p><pre class="css-0"><code class="language-js css-0">if (false) {    // ✗ avoid
+  // ...
+}
+
+if (x === 0) {  // ✓ ok
+  // ...
+}
+
+while (true) {  // ✓ ok
+  // ...
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">正则中不要使用控制符</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-control-regex" class="css-0"><code class="css-0">no-control-regex</code></a></p><pre class="css-0"><code class="language-js css-0">var pattern = /\x1f/    // ✗ avoid
+var pattern = /\x20/    // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要使用 <code class="css-0">debugger</code></strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-debugger" class="css-0"><code class="css-0">no-debugger</code></a></p><pre class="css-0"><code class="language-js css-0">function sum (a, b) {
+  debugger      // ✗ avoid
+  return a + b
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要对变量使用 <code class="css-0">delete</code> 操作</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-delete-var" class="css-0"><code class="css-0">no-delete-var</code></a></p><pre class="css-0"><code class="language-js css-0">var name
+delete name     // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要定义冗余的函数参数</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-dupe-args" class="css-0"><code class="css-0">no-dupe-args</code></a></p><pre class="css-0"><code class="language-js css-0">function sum (a, b, a) {  // ✗ avoid
+  // ...
+}
+
+function sum (a, b, c) {  // ✓ ok
+  // ...
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">类中不要定义冗余的属性</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-dupe-class-members" class="css-0"><code class="css-0">no-dupe-class-members</code></a></p><pre class="css-0"><code class="language-js css-0">class Dog {
+  bark () {}
+  bark () {}    // ✗ avoid
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">对象字面量中不要定义重复的属性</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-dupe-keys" class="css-0"><code class="css-0">no-dupe-keys</code></a></p><pre class="css-0"><code class="language-js css-0">var user = {
+  name: &#x27;Jane Doe&#x27;,
+  name: &#x27;John Doe&#x27;    // ✗ avoid
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0"><code class="css-0">switch</code> 语句中不要定义重复的 <code class="css-0">case</code> 分支</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-duplicate-case" class="css-0"><code class="css-0">no-duplicate-case</code></a></p><pre class="css-0"><code class="language-js css-0">switch (id) {
+  case 1:
+    // ...
+  case 1:     // ✗ avoid
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">同一模块有多个导入时一次性写完</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-duplicate-imports" class="css-0"><code class="css-0">no-duplicate-imports</code></a></p><pre class="css-0"><code class="language-js css-0">import { myFunc1 } from &#x27;module&#x27;
+import { myFunc2 } from &#x27;module&#x27;          // ✗ avoid
+
+import { myFunc1, myFunc2 } from &#x27;module&#x27; // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">正则中不要使用空字符</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-empty-character-class" class="css-0"><code class="css-0">no-empty-character-class</code></a></p><pre class="css-0"><code class="language-js css-0">const myRegex = /^abc[]/      // ✗ avoid
+const myRegex = /^abc[a-z]/   // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要解构空值</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-empty-pattern" class="css-0"><code class="css-0">no-empty-pattern</code></a></p><pre class="css-0"><code class="language-js css-0">const { a: {} } = foo         // ✗ avoid
+const { a: { b } } = foo      // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要使用 <code class="css-0">eval()</code></strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-eval" class="css-0"><code class="css-0">no-eval</code></a></p><pre class="css-0"><code class="language-js css-0">eval( &quot;var result = user.&quot; + propName ) // ✗ avoid
+var result = user[propName]             // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0"><code class="css-0">catch</code> 中不要对错误重新赋值</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-ex-assign" class="css-0"><code class="css-0">no-ex-assign</code></a></p><pre class="css-0"><code class="language-js css-0">try {
+  // ...
+} catch (e) {
+  e = &#x27;new value&#x27;             // ✗ avoid
+}
+
+try {
+  // ...
+} catch (e) {
+  const newVal = &#x27;new value&#x27;  // ✓ ok
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要扩展原生对象</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-extend-native" class="css-0"><code class="css-0">no-extend-native</code></a></p><pre class="css-0"><code class="language-js css-0">Object.prototype.age = 21     // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">避免多余的函数上下文绑定</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-extra-bind" class="css-0"><code class="css-0">no-extra-bind</code></a></p><pre class="css-0"><code class="language-js css-0">const name = function () {
+  getName()
+}.bind(user)    // ✗ avoid
+
+const name = function () {
+  this.getName()
+}.bind(user)    // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">避免不必要的布尔转换</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-extra-boolean-cast" class="css-0"><code class="css-0">no-extra-boolean-cast</code></a></p><pre class="css-0"><code class="language-js css-0">const result = true
+if (!!result) {   // ✗ avoid
+  // ...
+}
+
+const result = true
+if (result) {     // ✓ ok
+  // ...
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要使用多余的括号包裹函数</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-extra-parens" class="css-0"><code class="css-0">no-extra-parens</code></a></p><pre class="css-0"><code class="language-js css-0">const myFunc = (function () { })   // ✗ avoid
+const myFunc = function () { }     // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0"><code class="css-0">switch</code> 一定要使用 <code class="css-0">break</code> 来将条件分支正常中断</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-fallthrough" class="css-0"><code class="css-0">no-fallthrough</code></a></p><pre class="css-0"><code class="language-js css-0">switch (filter) {
+  case 1:
+    doSomething()    // ✗ avoid
+  case 2:
+    doSomethingElse()
+}
+
+switch (filter) {
+  case 1:
+    doSomething()
+    break           // ✓ ok
+  case 2:
+    doSomethingElse()
+}
+
+switch (filter) {
+  case 1:
+    doSomething()
+    // fallthrough  // ✓ ok
+  case 2:
+    doSomethingElse()
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要省去小数点前面的0</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-floating-decimal" class="css-0"><code class="css-0">no-floating-decimal</code></a></p><pre class="css-0"><code class="language-js css-0">const discount = .5      // ✗ avoid
+const discount = 0.5     // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">避免对声明过的函数重新赋值</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-func-assign" class="css-0"><code class="css-0">no-func-assign</code></a></p><pre class="css-0"><code class="language-js css-0">function myFunc () { }
+myFunc = myOtherFunc    // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要对全局只读对象重新赋值</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-global-assign" class="css-0"><code class="css-0">no-global-assign</code></a></p><pre class="css-0"><code class="language-js css-0">window = {}     // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">注意隐式的 <code class="css-0">eval()</code></strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-implied-eval" class="css-0"><code class="css-0">no-implied-eval</code></a></p><pre class="css-0"><code class="language-js css-0">setTimeout(&quot;alert(&#x27;Hello world&#x27;)&quot;)                   // ✗ avoid
+setTimeout(function () { alert(&#x27;Hello world&#x27;) })     // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">嵌套的代码块中禁止再定义函数</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-inner-declarations" class="css-0"><code class="css-0">no-inner-declarations</code></a></p><pre class="css-0"><code class="language-js css-0">if (authenticated) {
+  function setAuthUser () {}    // ✗ avoid
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要向 <code class="css-0">RegExp</code> 构造器传入非法的正则表达式</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-invalid-regexp" class="css-0"><code class="css-0">no-invalid-regexp</code></a></p><pre class="css-0"><code class="language-js css-0">RegExp(&#x27;[a-z&#x27;)    // ✗ avoid
+RegExp(&#x27;[a-z]&#x27;)   // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要使用非法的空白符</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-irregular-whitespace" class="css-0"><code class="css-0">no-irregular-whitespace</code></a></p><pre class="css-0"><code class="language-js css-0">function myFunc () /*&lt;NBSP&gt;*/{}   // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">禁止使用 <code class="css-0">__iterator__</code></strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-iterator" class="css-0"><code class="css-0">no-iterator</code></a></p><pre class="css-0"><code class="language-js css-0">Foo.prototype.__iterator__ = function () {}   // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">外部变量不要与对象属性重名</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-label-var" class="css-0"><code class="css-0">no-label-var</code></a></p><pre class="css-0"><code class="language-js css-0">var score = 100
+function game () {
+  score: while (true) {      // ✗ avoid
+    score -= 10
+    if (score &gt; 0) continue score
+    break
+  }
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要使用标签语句</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-labels" class="css-0"><code class="css-0">no-labels</code></a></p><pre class="css-0"><code class="language-js css-0">label:
+  while (true) {
+    break label     // ✗ avoid
+  }
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要书写不必要的嵌套代码块</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-lone-blocks" class="css-0"><code class="css-0">no-lone-blocks</code></a></p><pre class="css-0"><code class="language-js css-0">function myFunc () {
+  {                   // ✗ avoid
+    myOtherFunc()
+  }
+}
+
+function myFunc () {
+  myOtherFunc()       // ✓ ok
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要混合使用空格与制表符作为缩进</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-mixed-spaces-and-tabs" class="css-0"><code class="css-0">no-mixed-spaces-and-tabs</code></a></p></li><li class="css-0"><p class="css-0"><strong class="css-0">除了缩进，不要使用多个空格</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-multi-spaces" class="css-0"><code class="css-0">no-multi-spaces</code></a></p><pre class="css-0"><code class="language-js css-0">const id =    1234    // ✗ avoid
+const id = 1234       // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要使用多行字符串</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-multi-str" class="css-0"><code class="css-0">no-multi-str</code></a></p><pre class="css-0"><code class="language-js css-0">const message = &#x27;Hello \
+                 world&#x27;     // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0"><code class="css-0">new</code> 创建对象实例后需要赋值给变量</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-new" class="css-0"><code class="css-0">no-new</code></a></p><pre class="css-0"><code class="language-js css-0">new Character()                     // ✗ avoid
+const character = new Character()   // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">禁止使用 <code class="css-0">Function</code> 构造器</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-new-func" class="css-0"><code class="css-0">no-new-func</code></a></p><pre class="css-0"><code class="language-js css-0">var sum = new Function(&#x27;a&#x27;, &#x27;b&#x27;, &#x27;return a + b&#x27;)    // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">禁止使用 <code class="css-0">Object</code> 构造器</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-new-object" class="css-0"><code class="css-0">no-new-object</code></a></p><pre class="css-0"><code class="language-js css-0">let config = new Object()   // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">禁止使用 <code class="css-0">new require</code></strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-new-require" class="css-0"><code class="css-0">no-new-require</code></a></p><pre class="css-0"><code class="language-js css-0">const myModule = new require(&#x27;my-module&#x27;)    // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">禁止使用 <code class="css-0">Symbol</code> 构造器</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-new-symbol" class="css-0"><code class="css-0">no-new-symbol</code></a></p><pre class="css-0"><code class="language-js css-0">const foo = new Symbol(&#x27;foo&#x27;)   // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">禁止使用原始包装器</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-new-wrappers" class="css-0"><code class="css-0">no-new-wrappers</code></a></p><pre class="css-0"><code class="language-js css-0">const message = new String(&#x27;hello&#x27;)   // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要将全局对象的属性作为函数调用</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-obj-calls" class="css-0"><code class="css-0">no-obj-calls</code></a></p><pre class="css-0"><code class="language-js css-0">const math = Math()   // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要使用八进制字面量</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-octal" class="css-0"><code class="css-0">no-octal</code></a></p><pre class="css-0"><code class="language-js css-0">const octal = 042         // ✗ avoid
+const decimal = 34        // ✓ ok
+const octalString = &#x27;042&#x27; // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">字符串字面量中也不要使用八进制转义字符</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-octal-escape" class="css-0"><code class="css-0">no-octal-escape</code></a></p><pre class="css-0"><code class="language-js css-0">const copyright = &#x27;Copyright \251&#x27;  // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">使用 <code class="css-0">__dirname</code> 和 <code class="css-0">__filename</code> 时尽量避免使用字符串拼接</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-path-concat" class="css-0"><code class="css-0">no-path-concat</code></a></p><pre class="css-0"><code class="language-js css-0">const pathToFile = __dirname + &#x27;/app.js&#x27;            // ✗ avoid
+const pathToFile = path.join(__dirname, &#x27;app.js&#x27;)   // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0">使用 <code class="css-0">getPrototypeOf</code> 来替代 <strong class="css-0"><code class="css-0">__proto__</code></strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-proto" class="css-0"><code class="css-0">no-proto</code></a></p><pre class="css-0"><code class="language-js css-0">const foo = obj.__proto__               // ✗ avoid
+const foo = Object.getPrototypeOf(obj)  // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要重复声明变量</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-redeclare" class="css-0"><code class="css-0">no-redeclare</code></a></p><pre class="css-0"><code class="language-js css-0">let name = &#x27;John&#x27;
+let name = &#x27;Jane&#x27;     // ✗ avoid
+
+let name = &#x27;John&#x27;
+name = &#x27;Jane&#x27;         // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">正则中避免使用多个空格</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-regex-spaces" class="css-0"><code class="css-0">no-regex-spaces</code></a></p><pre class="css-0"><code class="language-js css-0">const regexp = /test   value/   // ✗ avoid
+
+const regexp = /test {3}value/  // ✓ ok
+const regexp = /test value/     // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">return 语句中的赋值必需有括号包裹</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-return-assign" class="css-0"><code class="css-0">no-return-assign</code></a></p><pre class="css-0"><code class="language-js css-0">function sum (a, b) {
+  return result = a + b     // ✗ avoid
+}
+
+function sum (a, b) {
+  return (result = a + b)   // ✓ ok
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">避免将变量赋值给自己</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-self-assign" class="css-0"><code class="css-0">no-self-assign</code></a></p><pre class="css-0"><code class="language-js css-0">name = name   // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">避免将变量与自己进行比较操作</strong>。</p><p class="css-0">esint: <a href="http://eslint.org/docs/rules/no-self-compare" class="css-0"><code class="css-0">no-self-compare</code></a></p><pre class="css-0"><code class="language-js css-0">if (score === score) {}   // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">避免使用逗号操作符</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-sequences" class="css-0"><code class="css-0">no-sequences</code></a></p><pre class="css-0"><code class="language-js css-0">if (doSomething(), !!test) {}   // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要随意更改关键字的值</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-shadow-restricted-names" class="css-0"><code class="css-0">no-shadow-restricted-names</code></a></p><pre class="css-0"><code class="language-js css-0">let undefined = &#x27;value&#x27;     // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">禁止使用稀疏数组（Sparse arrays）</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-sparse-arrays" class="css-0"><code class="css-0">no-sparse-arrays</code></a></p><pre class="css-0"><code class="language-js css-0">let fruits = [&#x27;apple&#x27;,, &#x27;orange&#x27;]       // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">不要使用制表符</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-tabs" class="css-0"><code class="css-0">no-tabs</code></a></p></li><li class="css-0"><p class="css-0"><strong class="css-0">正确使用 ES6 中的字符串模板</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-template-curly-in-string" class="css-0"><code class="css-0">no-template-curly-in-string</code></a></p><pre class="css-0"><code class="language-js css-0">const message = &#x27;Hello ${name}&#x27;   // ✗ avoid
+const message = `Hello ${name}`   // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">使用 <code class="css-0">this</code> 前请确保 <code class="css-0">super()</code> 已调用</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-this-before-super" class="css-0"><code class="css-0">no-this-before-super</code></a></p><pre class="css-0"><code class="language-js css-0">class Dog extends Animal {
+  constructor () {
+    this.legs = 4     // ✗ avoid
+    super()
+  }
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">用 <code class="css-0">throw</code> 抛错时，抛出 <code class="css-0">Error</code> 对象而不是字符串</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-throw-literal" class="css-0"><code class="css-0">no-throw-literal</code></a></p><pre class="css-0"><code class="language-js css-0">throw &#x27;error&#x27;               // ✗ avoid
+throw new Error(&#x27;error&#x27;)    // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">行末不留空格</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-trailing-spaces" class="css-0"><code class="css-0">no-trailing-spaces</code></a></p></li><li class="css-0"><p class="css-0"><strong class="css-0">不要使用 <code class="css-0">undefined</code> 来初始化变量</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-undef-init" class="css-0"><code class="css-0">no-undef-init</code></a></p><pre class="css-0"><code class="language-js css-0">let name = undefined    // ✗ avoid
+
+let name
+name = &#x27;value&#x27;          // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">循环语句中注意更新循环变量</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-unmodified-loop-condition" class="css-0"><code class="css-0">no-unmodified-loop-condition</code></a></p><pre class="css-0"><code class="language-js css-0">for (let i = 0; i &lt; items.length; j++) {...}    // ✗ avoid
+for (let i = 0; i &lt; items.length; i++) {...}    // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">如果有更好的实现，尽量不要使用三元表达式</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-unneeded-ternary" class="css-0"><code class="css-0">no-unneeded-ternary</code></a></p><pre class="css-0"><code class="language-js css-0">let score = val ? val : 0     // ✗ avoid
+let score = val || 0          // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0"><code class="css-0">return</code>，<code class="css-0">throw</code>，<code class="css-0">continue</code> 和 <code class="css-0">break</code> 后不要再跟代码</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-unreachable" class="css-0"><code class="css-0">no-unreachable</code></a></p><pre class="css-0"><code class="language-js css-0">function doSomething () {
+  return true
+  console.log(&#x27;never called&#x27;)     // ✗ avoid
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0"><code class="css-0">finally</code> 代码块中不要再改变程序执行流程</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-unsafe-finally" class="css-0"><code class="css-0">no-unsafe-finally</code></a></p><pre class="css-0"><code class="language-js css-0">try {
+  // ...
+} catch (e) {
+  // ...
+} finally {
+  return 42     // ✗ avoid
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">关系运算符的左值不要做取反操作</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-unsafe-negation" class="css-0"><code class="css-0">no-unsafe-negation</code></a></p><pre class="css-0"><code class="language-js css-0">if (!key in obj) {}       // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">避免不必要的 <code class="css-0">.call()</code> 和 <code class="css-0">.apply()</code></strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-useless-call" class="css-0"><code class="css-0">no-useless-call</code></a></p><pre class="css-0"><code class="language-js css-0">sum.call(null, 1, 2, 3)   // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">避免使用不必要的计算值作对象属性</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-useless-computed-key" class="css-0"><code class="css-0">no-useless-computed-key</code></a></p><pre class="css-0"><code class="language-js css-0">const user = { [&#x27;name&#x27;]: &#x27;John Doe&#x27; }   // ✗ avoid
+const user = { name: &#x27;John Doe&#x27; }       // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">禁止多余的构造器</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-useless-constructor" class="css-0"><code class="css-0">no-useless-constructor</code></a></p><pre class="css-0"><code class="language-js css-0">class Car {
+  constructor () {      // ✗ avoid
+  }
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">禁止不必要的转义</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-useless-escape" class="css-0"><code class="css-0">no-useless-escape</code></a></p><pre class="css-0"><code class="language-js css-0">let message = &#x27;Hell\o&#x27;  // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">import, export 和解构操作中，禁止赋值到同名变量</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-useless-rename" class="css-0"><code class="css-0">no-useless-rename</code></a></p><pre class="css-0"><code class="language-js css-0">import { config as config } from &#x27;./config&#x27;     // ✗ avoid
+import { config } from &#x27;./config&#x27;               // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">属性前面不要加空格</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-whitespace-before-property" class="css-0"><code class="css-0">no-whitespace-before-property</code></a></p><pre class="css-0"><code class="language-js css-0">user .name      // ✗ avoid
+user.name       // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">禁止使用 <code class="css-0">with</code></strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-with" class="css-0"><code class="css-0">no-with</code></a></p><pre class="css-0"><code class="language-js css-0">with (val) {...}    // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">对象属性换行时注意统一代码风格</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/object-property-newline" class="css-0"><code class="css-0">object-property-newline</code></a></p><pre class="css-0"><code class="language-js css-0">const user = {
+  name: &#x27;Jane Doe&#x27;, age: 30,
+  username: &#x27;jdoe86&#x27;            // ✗ avoid
+}
+
+const user = { name: &#x27;Jane Doe&#x27;, age: 30, username: &#x27;jdoe86&#x27; }    // ✓ ok
+
+const user = {
+  name: &#x27;Jane Doe&#x27;,
+  age: 30,
+  username: &#x27;jdoe86&#x27;
+}                                                                 // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">代码块中避免多余留白</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/padded-blocks" class="css-0"><code class="css-0">padded-blocks</code></a></p><pre class="css-0"><code class="language-js css-0">if (user) {
+                            // ✗ avoid
+  const name = getName()
+
+}
+
+if (user) {
+  const name = getName()    // ✓ ok
+}
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">展开运算符与它的表达式间不要留空白</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/rest-spread-spacing" class="css-0"><code class="css-0">rest-spread-spacing</code></a></p><pre class="css-0"><code class="language-js css-0">fn(... args)    // ✗ avoid
+fn(...args)     // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">遇到分号时空格要后留前不留</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/semi-spacing" class="css-0"><code class="css-0">semi-spacing</code></a></p><pre class="css-0"><code class="language-js css-0">for (let i = 0 ;i &lt; items.length ;i++) {...}    // ✗ avoid
+for (let i = 0; i &lt; items.length; i++) {...}    // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">代码块首尾留空格</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/space-before-blocks" class="css-0"><code class="css-0">space-before-blocks</code></a></p><pre class="css-0"><code class="language-js css-0">if (admin){...}     // ✗ avoid
+if (admin) {...}    // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">圆括号间不留空格</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/space-in-parens" class="css-0"><code class="css-0">space-in-parens</code></a></p><pre class="css-0"><code class="language-js css-0">getName( name )     // ✗ avoid
+getName(name)       // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">一元运算符后面跟一个空格</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/space-unary-ops" class="css-0"><code class="css-0">space-unary-ops</code></a></p><pre class="css-0"><code class="language-js css-0">typeof!admin        // ✗ avoid
+typeof !admin        // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">注释首尾留空格</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/spaced-comment" class="css-0"><code class="css-0">spaced-comment</code></a></p><pre class="css-0"><code class="language-js css-0">//comment           // ✗ avoid
+// comment          // ✓ ok
+
+/*comment*/         // ✗ avoid
+/* comment */       // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">模板字符串中变量前后不加空格</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/template-curly-spacing" class="css-0"><code class="css-0">template-curly-spacing</code></a></p><pre class="css-0"><code class="language-js css-0">const message = `Hello, ${ name }`    // ✗ avoid
+const message = `Hello, ${name}`      // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">检查 <code class="css-0">NaN</code> 的正确姿势是使用 <code class="css-0">isNaN()</code></strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/use-isnan" class="css-0"><code class="css-0">use-isnan</code></a></p><pre class="css-0"><code class="language-js css-0">if (price === NaN) { }      // ✗ avoid
+if (isNaN(price)) { }       // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">用合法的字符串跟 <code class="css-0">typeof</code> 进行比较操作</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/valid-typeof" class="css-0"><code class="css-0">valid-typeof</code></a></p><pre class="css-0"><code class="language-js css-0">typeof name === &#x27;undefimed&#x27;     // ✗ avoid
+typeof name === &#x27;undefined&#x27;     // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">自调用匿名函数 (IIFEs) 使用括号包裹</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/wrap-iife" class="css-0"><code class="css-0">wrap-iife</code></a></p><pre class="css-0"><code class="language-js css-0">const getName = function () { }()     // ✗ avoid
+
+const getName = (function () { }())   // ✓ ok
+const getName = (function () { })()   // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0"><code class="css-0">yield *</code> 中的 <code class="css-0">*</code> 前后都要有空格</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/yield-star-spacing" class="css-0"><code class="css-0">yield-star-spacing</code></a></p><pre class="css-0"><code class="language-js css-0">yield* increment()    // ✗ avoid
+yield * increment()   // ✓ ok
+</code></pre></li><li class="css-0"><p class="css-0"><strong class="css-0">请书写优雅的条件语句（avoid Yoda conditions）</strong>。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/yoda" class="css-0"><code class="css-0">yoda</code></a></p><pre class="css-0"><code class="language-js css-0">if (42 === age) { }    // ✗ avoid
+if (age === 42) { }    // ✓ ok
+</code></pre></li></ul><h2 class="css-0">关于分号</h2><ul class="css-0"><li class="css-0"><p class="css-0">不要使用分号。 (参见：<a href="http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding" class="css-0">1</a>，<a href="http://inimino.org/%7Einimino/blog/javascript_semicolons" class="css-0">2</a>，<a href="https://www.youtube.com/watch?v=gsfbh17Ax9I" class="css-0">3</a>)</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/semi" class="css-0"><code class="css-0">semi</code></a></p><pre class="css-0"><code class="language-js css-0">window.alert(&#x27;hi&#x27;)   // ✓ ok
+window.alert(&#x27;hi&#x27;);  // ✗ avoid
+</code></pre></li><li class="css-0"><p class="css-0">不要使用 <code class="css-0">(</code>, <code class="css-0">[</code>, or <code class="css-0">`</code> 等作为一行的开始。在没有分号的情况下代码压缩后会导致报错，而坚持这一规范则可避免出错。</p><p class="css-0">eslint: <a href="http://eslint.org/docs/rules/no-unexpected-multiline" class="css-0"><code class="css-0">no-unexpected-multiline</code></a></p><pre class="css-0"><code class="language-js css-0">// ✓ ok
+;(function () {
+  window.alert(&#x27;ok&#x27;)
+}())
+
+// ✗ avoid
+(function () {
+  window.alert(&#x27;ok&#x27;)
+}())
+</code></pre><pre class="css-0"><code class="language-js css-0">// ✓ ok
+;[1, 2, 3].forEach(bar)
+
+// ✗ avoid
+[1, 2, 3].forEach(bar)
+</code></pre><pre class="css-0"><code class="language-js css-0">// ✓ ok
+;`hello`.indexOf(&#x27;o&#x27;)
+
+// ✗ avoid
+`hello`.indexOf(&#x27;o&#x27;)
+</code></pre><p class="css-0">备注：上面的写法只能说聪明过头了。</p><p class="css-0">相比更加可读易懂的代码，那些看似投巧的写法是不可取的。</p><p class="css-0">譬如：</p><pre class="css-0"><code class="language-js css-0">;[1, 2, 3].forEach(bar)
+</code></pre><p class="css-0">建议的写法是：</p><pre class="css-0"><code class="language-js css-0">var nums = [1, 2, 3]
+nums.forEach(bar)
+</code></pre></li></ul><h2 class="css-0">拓展阅读</h2><ul class="css-0"><li class="css-0"><a href="http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding" class="css-0">An Open Letter to JavaScript Leaders Regarding Semicolons</a></li><li class="css-0"><a href="http://inimino.org/~inimino/blog/javascript_semicolons" class="css-0">JavaScript Semicolon Insertion – Everything you need to know</a></li></ul><h5 class="css-0">一个值得观看的视频：</h5><ul class="css-0"><li class="css-0"><a href="https://www.youtube.com/watch?v=gsfbh17Ax9I" class="css-0">JavaScript 中的分号多余吗？- YouTube</a></li></ul><p class="css-0">当前主流的代码压缩方案都是基于词法（AST-based）进行的，所以在处理无分号的代码时完全没有压力（何况 JavaScript 中分号本来就不是强制的）。</p><h5 class="css-0">一段摘抄自 <em class="css-0"><a href="http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding" class="css-0">&quot;An Open Letter to JavaScript Leaders Regarding Semicolons&quot;</a></em> 这篇文章的内容：</h5><blockquote class="css-0"><p class="css-0">[自动化插入分号的做法]<!-- -->是安全可依赖的，而且其产出的代码能够在所有浏览器里很好地运行。 Closure compiler, yuicompressor, packer 还有 jsmin 都能正确地对这样的代码进行压缩处理。并没有任何性能相关的问题。</p><p class="css-0">不得不说，Javascript 社区里的大牛们一直是错误的，并不能教给你最佳实践。真是让人忧伤啊。 我建议先弄清楚 JS 是怎样断句的（还有就是哪些地方看起来断了其实并没有），明白了这个后就可以随心写出漂亮的代码了。</p><p class="css-0">一般来说， <code class="css-0">\n</code> 表示语句结束，除非：</p><ol class="css-0"><li class="css-0">该语句有未闭合的括号， 数组字面量， 对象字面量 或者其他不能正常结束一条语句的情况（譬如，以 <code class="css-0">.</code> 或 <code class="css-0">,</code> 结尾）</li><li class="css-0">该语句是 <code class="css-0">--</code> 或者 <code class="css-0">++</code> （它会将后面的内容进行自增或减）</li><li class="css-0">该语句是 <code class="css-0">for()</code>，<code class="css-0">while()</code>，<code class="css-0">do</code>，<code class="css-0">if()</code> 或者 <code class="css-0">else</code> 并且没有 <code class="css-0">{</code></li><li class="css-0">下一行以 <code class="css-0">[</code>，<code class="css-0">(</code>，<code class="css-0">+</code>，<code class="css-0">*</code>，<code class="css-0">/</code>，<code class="css-0">-</code>，<code class="css-0">,</code>，<code class="css-0">.</code> 或者其他只会单独出现在两块内容间的二元操作符。</li></ol><p class="css-0">第一条很容易理解。即使在 JSLint 中，也允许 JSON，构造器的括号中，以及使用 <code class="css-0">var</code> 配合 <code class="css-0">,</code> 结尾来声明多个变量等这些情中包含 <code class="css-0">\n</code>。</p><p class="css-0">第二条有点奇葩。 我还想不出谁会（除了这里用作讨论外）写出 <code class="css-0">i\n++\nj</code> 这样的代码来，不过，顺便说一下，这种写法最后解析的结果是 <code class="css-0">i; ++j</code>，而不是 <code class="css-0">i++; j</code>。</p><p class="css-0">第三条也容易理解。 <code class="css-0">if (x)\ny()</code> 等价于 <code class="css-0">if (x) { y() }</code>。解释器会向下寻找到代码块或一条语句为止。</p><p class="css-0"><code class="css-0">;</code> 是条合法的 JavaScript 语句。所以 <code class="css-0">if(x);</code> 等价于 <code class="css-0">if(x){}</code>，表示 “如果 x 为真，什么也不做。” 这种写法在循环里面可以看到，就是当条件判断与条件更新是同一个方法的时候。 不常见，但也不至于没听说过吧。</p><p class="css-0">第四条就是常见的 “看，说过要加分号！” 的情形。但这些情况可以通过在语句前面加上分号来解决，如果你确定该语句跟前面的没关系的话。举个例子，假如你想这样：</p><pre class="css-0"><code class="language-js css-0">foo();
+[1,2,3].forEach(bar);
+</code></pre><p class="css-0">那么完全可以这样来写：</p><pre class="css-0"><code class="language-js css-0">foo()
+;[1,2,3].forEach(bar)
+</code></pre><p class="css-0">后者的好处是分号比较瞩目，一旦习惯后便再也不会看到以 <code class="css-0">(</code> 和 <code class="css-0">[</code> 开头又不带分号的语句了。</p></blockquote></main></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/front-guide/language/javascript-guide/";window.___webpackCompilationHash="5e1abc7217b883e46c4e";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-fb56006874e3911784ed.js"],"app":["/app-5ff64c5c6731c3d5b165.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-c984588366e36595e3f0.js"],"component---src-pages-blog-page-tsx":["/component---src-pages-blog-page-tsx-6c628ecc27a01ed01733.js"],"component---src-pages-front-end-page-tsx":["/component---src-pages-front-end-page-tsx-c02bb3ccd696b9175493.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-cc0e6606af768ec19edc.js"],"component---src-pages-mdx-slug-tsx":["/component---src-pages-mdx-slug-tsx-e6b9a5a5ab118c518437.js"]};/*]]>*/</script><script src="/polyfill-fb56006874e3911784ed.js" nomodule=""></script><script src="/component---src-pages-mdx-slug-tsx-e6b9a5a5ab118c518437.js" async=""></script><script src="/42c9f84f9645ed5f761b4c6678255cf01342391e-664e7f9e279843ee0ff6.js" async=""></script><script src="/app-5ff64c5c6731c3d5b165.js" async=""></script><script src="/framework-40f550404eff6143517a.js" async=""></script><script src="/webpack-runtime-a8b117a0c06915913bd8.js" async=""></script></body></html>
